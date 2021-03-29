@@ -1,0 +1,48 @@
+@import "variable";
+@import "set";
+
+// @include desktop {
+//     .box1 {
+//         ul {
+//             li {
+//                 width: 100px;
+//                 display: inline;
+//             }
+//         }
+//     }
+// }
+
+.box1 {
+    ul {
+        text-align: center;
+        height: 50px;
+        border: 1px solid red;
+        li {
+            width: 100px;
+            height: 100%;
+            display: inline-block;
+            border: 1px solid gray;
+        }
+    }
+}
+
+@include tablet {
+    .box1 {
+        ul {
+            li {
+                background-color: ivory;
+                height: 80%;
+            }
+        }
+    }
+}
+
+@include mobile {
+    .box1 {
+        ul {
+            li {
+                width: 16%;
+            }
+        }
+    }
+}

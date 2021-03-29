@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  color: black;
+}
+
+.box1 ul {
+  text-align: center;
+  height: 50px;
+  border: 1px solid red;
+}
+
+.box1 ul li {
+  width: 100px;
+  height: 100%;
+  display: inline-block;
+  border: 1px solid gray;
+}
+
+@media (max-width: 1188px) {
+  .box1 ul li {
+    background-color: ivory;
+    height: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .box1 ul li {
+    width: 16%;
+  }
+}

@@ -1,0 +1,468 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  color: black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  background-color: #f8f8f8;
+}
+
+header .main_head {
+  display: inline-block;
+  text-align: right;
+}
+
+header .main_head .head_in_div {
+  width: 1140px;
+  height: 40px;
+  margin-right: 0px;
+}
+
+header .main_head .head_in_div .head_layout {
+  display: inline-block;
+  height: 40px;
+  margin-right: 20px;
+}
+
+header .main_head .head_in_div .head_layout span .mail_call {
+  width: 14px;
+  height: 14px;
+  margin-top: 10px;
+}
+
+header .main_head .head_in_div .head_layout span .mail_call_text {
+  font-size: 14px;
+  color: gray;
+}
+
+header .main_head .head_in_div .head_layout span:last-of-type .mail_call {
+  margin-left: 10px;
+  border-left: 1px solid lightgray;
+  padding-left: 10px;
+}
+
+nav {
+  display: inline-block;
+  width: 100%;
+  height: 88px;
+  text-align: center;
+  border-bottom: 1px solid lightgray;
+}
+
+nav div {
+  display: inline-block;
+  width: 1140px;
+  height: 88px;
+  text-align: right;
+}
+
+nav div img {
+  width: 350px;
+  height: 48px;
+  margin: 20px auto;
+  float: left;
+}
+
+nav div .a_area {
+  display: inline;
+}
+
+nav div .a_area a {
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 600;
+  margin: 30px 20px;
+}
+
+main {
+  text-align: center;
+  height: auto;
+}
+
+main .h_area h1 {
+  padding: 25px 0px 0px 0px;
+  display: inline-block;
+  width: 100%;
+  height: 100px;
+  color: white;
+  background-image: url("../page/img/about.png");
+  background-repeat: no-repeat;
+}
+
+main .body_area {
+  padding: 60px 15px 100px;
+  margin: 0px auto;
+  width: 1170px;
+  height: auto;
+  text-align: left;
+}
+
+main .body_area h3 {
+  font-size: 30px;
+  padding: 0px 0px 20px;
+}
+
+main .body_area .body_in_area {
+  width: 1140px;
+  padding: 0px 15px;
+  margin: 0px 0px 60px;
+}
+
+main .body_area .body_in_area h4 {
+  font-size: 22px;
+  padding: 0px 0px 20px 35px;
+  position: relative;
+}
+
+main .body_area .body_in_area h4::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border: 3px solid #20529c;
+  border-top-color: #68b9f3;
+  left: 0;
+  top: 5px;
+}
+
+main .body_area .body_in_area div {
+  padding: 5px;
+  text-align: left;
+}
+
+main .body_area .body_in_area div img {
+  width: 100%;
+  height: 100%;
+}
+
+main .body_area .body_in_area div p {
+  padding: 10px 0px;
+  margin: 0px 0px 10px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #555555;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: black;
+}
+
+footer .foot_area {
+  display: inline-block;
+  width: 1170px;
+}
+
+footer .foot_area .site_map .foot_box {
+  text-align: left;
+  width: 100%;
+}
+
+footer .foot_area .site_map .foot_box .foot_head {
+  float: left;
+  width: 157.19px;
+  margin: 0 20px;
+}
+
+footer .foot_area .site_map .foot_box .foot_head h3 {
+  margin-bottom: 10px;
+  padding-top: 20px;
+  color: white;
+  display: inline-block;
+}
+
+footer .foot_area .site_map .foot_box .foot_head li {
+  color: white;
+  margin: 0 0 0 20px;
+}
+
+footer .foot_area .site_map .foot_box .foot_head li a {
+  color: white;
+  font-size: 14px;
+}
+
+footer .foot_area .site_map .foot_box .foot_head li::marker {
+  content: ">> ";
+  font-size: 12px;
+}
+
+footer .foot_area .site_map .contact_area {
+  display: inline-block;
+  text-align: left;
+}
+
+footer .foot_area .site_map .contact_area .contact {
+  display: inline-block;
+}
+
+footer .foot_area .site_map .contact_area .contact h3 {
+  color: white;
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
+footer .foot_area .site_map .contact_area .contact p {
+  color: white;
+}
+
+footer .foot_area .under_line {
+  display: inline-block;
+}
+
+footer .foot_area .under_line p {
+  margin-top: 50px;
+  color: white;
+}
+
+@media (max-width: 1188px) {
+  header {
+    width: 100%;
+  }
+  header .main_head {
+    float: right;
+  }
+  header .main_head .head_in_div {
+    width: 100%;
+  }
+  nav {
+    height: 122px;
+  }
+  nav div {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  nav div img {
+    width: 270px;
+    margin: 15px auto;
+    display: block;
+    float: none;
+  }
+  nav div .a_area a {
+    float: none;
+    font-size: 17px;
+    font-weight: 600;
+    margin: auto 20px;
+  }
+  main {
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+  main .h_area h1 {
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    color: white;
+    background-image: url("../page/img/about.png");
+    background-repeat: no-repeat;
+  }
+  main .body_area {
+    padding: 60px 15px 10%;
+    margin: 0px auto;
+    width: 100%;
+    height: auto;
+    text-align: left;
+  }
+  main .body_area h3 {
+    font-size: 3vw;
+    padding: 0px 0px 20px;
+  }
+  main .body_area .body_in_area {
+    width: 95%;
+    padding: 0px 1%;
+    margin: 0px 0px 60px;
+  }
+  main .body_area .body_in_area h4 {
+    font-size: 22px;
+    padding: 0px 0px 20px 35px;
+  }
+  main .body_area .body_in_area div {
+    width: 100%;
+    padding: 5px;
+  }
+  footer {
+    width: 100%;
+  }
+  footer .foot_area {
+    display: inline-block;
+    width: 100%;
+  }
+  footer .foot_area .site_map .foot_box {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+  }
+  footer .foot_area .site_map .foot_box .foot_head {
+    display: inline-block;
+    width: 25%;
+    margin: 0 auto;
+  }
+  footer .foot_area .site_map .foot_box .foot_head h3 {
+    margin-bottom: 10px;
+    padding-top: 20px;
+    display: inline-block;
+  }
+  footer .foot_area .site_map .contact_area {
+    width: 100%;
+    text-align: right;
+  }
+  footer .foot_area .site_map .contact_area .contact {
+    display: inline-block;
+    width: 100%;
+  }
+  footer .foot_area .site_map .contact_area .contact h3 {
+    color: white;
+    margin-bottom: 10px;
+    padding-right: 50px;
+    padding-top: 20px;
+  }
+  footer .foot_area .site_map .contact_area .contact p {
+    padding-right: 50px;
+  }
+  footer .foot_area .under_line {
+    display: inline-block;
+  }
+  footer .foot_area .under_line p {
+    margin-top: 10%;
+    color: white;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    width: 100%;
+    height: 30px;
+  }
+  header .main_head {
+    float: right;
+  }
+  header .main_head .head_in_div {
+    width: 100%;
+  }
+  header .main_head .head_in_div .head_layout .mail_call_text {
+    font-size: 8px;
+  }
+  nav {
+    height: 122px;
+  }
+  nav div {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  nav div img {
+    width: 70%;
+    margin: 15px auto;
+    display: block;
+    float: none;
+  }
+  nav div .a_area {
+    width: 100%;
+  }
+  nav div .a_area a {
+    float: none;
+    font-size: 10px;
+    font-weight: 600;
+    margin: auto 0px;
+    padding: 3px;
+  }
+  main {
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+  main .h_area h1 {
+    padding: 25px 0px 0px 0px;
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    color: white;
+    background-image: url("../page/img/about.png");
+    background-repeat: no-repeat;
+  }
+  main .body_area {
+    padding: 60px 0px 0px 0px;
+    margin: 0px auto;
+    width: 100%;
+    height: auto;
+    text-align: left;
+  }
+  main .body_area h3 {
+    font-size: 5vw;
+    padding: 0px 20px 20px;
+  }
+  main .body_area .body_in_area {
+    width: 90%;
+    padding: 0px 1%;
+    margin: 0px 0px 60px 4%;
+  }
+  main .body_area .body_in_area h4 {
+    font-size: 22px;
+    padding: 0px 0px 20px 35px;
+  }
+  main .body_area .body_in_area div {
+    width: 98%;
+    padding: 5px;
+  }
+  main footer {
+    width: 100%;
+  }
+  main footer .foot_area {
+    display: inline-block;
+    width: 100%;
+  }
+  main footer .foot_area .site_map .foot_box {
+    display: none;
+    width: 100%;
+    margin: 0 auto;
+  }
+  main footer .foot_area .site_map .foot_box .foot_head {
+    display: inline-block;
+    width: 25%;
+    margin: 0 auto;
+  }
+  main footer .foot_area .site_map .foot_box .foot_head h3 {
+    margin-bottom: 10px;
+    padding: 20px 0px 0px 10px;
+    display: inline-block;
+    font-size: 12px;
+  }
+  main footer .foot_area .site_map .foot_box .foot_head li {
+    margin: 0px 0px 0px 10px;
+  }
+  main footer .foot_area .site_map .foot_box .foot_head li a {
+    font-size: 6px;
+  }
+  main footer .foot_area .site_map .foot_box .foot_head li::marker {
+    content: none;
+  }
+  main footer .foot_area .site_map .contact_area {
+    width: 100%;
+    text-align: center;
+  }
+  main footer .foot_area .site_map .contact_area .contact {
+    display: inline-block;
+    width: 100%;
+  }
+  main footer .foot_area .site_map .contact_area .contact h3 {
+    color: white;
+    margin-bottom: 15px;
+    padding-right: 0px;
+    padding-top: 20px;
+    font-size: 13px;
+  }
+  main footer .foot_area .site_map .contact_area .contact p {
+    padding-right: 0px;
+    font-size: 10px;
+  }
+}
